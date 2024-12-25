@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { BrowserRouter as Router, Routes, Route, BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router'
 import './App.css'
+import Homepage from './pages/Homepage'
 import Logement from './pages/Logement'
 import About from './pages/About'
 
@@ -13,7 +14,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/',
-    element: <div>Accueil</div>
+    element: <Homepage/>
   },
   {
     path: '/logement',
