@@ -8,6 +8,10 @@ import About from './pages/About'
 
 const router = createBrowserRouter([
   {
+    path: "*",
+    element: <div>404</div>
+  },
+  {
     path: '/',
     element: <div>Accueil</div>
   },
@@ -20,6 +24,7 @@ const router = createBrowserRouter([
     element: <About/>
   }
 ])
+
 
 function App() {
   return <RouterProvider router={router} />
