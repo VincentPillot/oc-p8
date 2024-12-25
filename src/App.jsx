@@ -1,0 +1,28 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import { BrowserRouter as Router, Routes, Route, BrowserRouter, createBrowserRouter, RouterProvider } from 'react-router'
+import './App.css'
+import Logement from './pages/Logement'
+import About from './pages/About'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <div>Accueil</div>
+  },
+  {
+    path: '/logement',
+    element: <Logement/>
+  },
+  {
+    path: '/a-propos',
+    element: <About/>
+  }
+])
+
+function App() {
+  return <RouterProvider router={router} />
+}
+
+export default App
