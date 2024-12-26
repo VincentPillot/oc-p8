@@ -1,3 +1,4 @@
+import LogementsSection from '/src/components/Logements_Grid'
 import '/src/styles/Homepage.css'
 
 function Homepage() {
@@ -8,6 +9,8 @@ function Homepage() {
                     <h1>Chez vous, partout et ailleurs</h1>
                 </div>
             </div>
+
+            <LogementsSection/>
         </main>
     )
 }
