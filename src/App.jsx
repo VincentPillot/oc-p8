@@ -6,6 +6,9 @@ import './App.css'
 import Homepage from './pages/Homepage'
 import Logement from './pages/Logement'
 import About from './pages/About'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import '/src/styles/Style.css'
 
 const router = createBrowserRouter([
   {
@@ -28,7 +31,13 @@ const router = createBrowserRouter([
 
 
 function App() {
-  return <RouterProvider router={router} />
+  return(
+    <>
+      <Navbar/>
+      <RouterProvider router={router} />
+      <Footer/>
+    </>
+  )
 }
 
 export default App
