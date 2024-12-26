@@ -5,6 +5,7 @@
     background-image: url("../src/assets/images/home_banner.png");
     background-position: center;
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 .home__banner__filter{
