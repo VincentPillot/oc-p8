@@ -1,0 +1,27 @@
+.logements__section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(246, 246, 246, 1);
+    padding: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+
+.logement{
+    width: 340px;
+    height: 340px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 96, 96, 1);
+    position: relative;
+}
+
+.logement h2{
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
