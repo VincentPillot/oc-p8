@@ -1,6 +1,5 @@
 import PropertiesGrid from '/src/components/Properties_Grid/Properties_Grid'
 import Banner from '/src/components/Banner/Banner'
-import '/src/styles/Homepage.css'
 
 function Homepage() {
     return(
