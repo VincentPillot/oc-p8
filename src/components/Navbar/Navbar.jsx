@@ -1,4 +1,4 @@
-import '/src/styles/Navbar.css'
+import '/src/components/Navbar/Navbar.css'
 import { Link } from "react-router";
 
 function Navbar() {
