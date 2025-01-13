@@ -35,7 +35,7 @@ function PropertiesGrid() {
                 <div key={property.id} className="property" style={{backgroundImage: `url(${property.cover})`}}>
                     <Link 
                     to={{
-                        pathname: "/logement",
+                        pathname: "/property",
                         search: `?id=${property.id}`
                         }} 
                     />
