@@ -32,15 +32,15 @@ function PropertiesGrid() {
     return (
         <section className="properties__section">
             {propertiesData.map((property) => ( // On map sur les résultats de l'api et on créer notre élément avec un <Link> pointant vers la page de fiche logement
-                <div key={property.id} className="property" style={{backgroundImage: `url(${property.cover})`}}>
+                <div key={property.id} className="property__card" style={{backgroundImage: `url(${property.cover})`}}>
                     <Link 
                     to={{
                         pathname: "/property",
                         search: `?id=${property.id}`
                         }} 
                     />
-                    <div className="property__bg__filter">
-                        <h2 className="property__title">{property.title}</h2>
+                    <div className="property__card__bg__filter">
+                        <h2 className="property__card__title">{property.title}</h2>
                     </div>
                 </div>
             ))}
