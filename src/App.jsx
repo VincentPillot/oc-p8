@@ -1,7 +1,7 @@
 import {Routes, Route} from 'react-router'
 import './App.css'
 import Homepage from './pages/Homepage'
-import Property from './pages/Property.jsx'
+import Property from './pages/Property/Property.jsx'
 import About from './pages/About'
 import Navbar from './components/Navbar/Navbar.jsx'
 import Footer from './components/Footer/Footer.jsx'
