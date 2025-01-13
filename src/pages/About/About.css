@@ -4,3 +4,9 @@ section{
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width: 900px) {
+    .banner{
+        margin-bottom: 30px !important;
+    }
+}
