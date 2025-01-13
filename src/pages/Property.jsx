@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { getProperty } from '../scripts/api';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import Collapse from '../components/Collapse';
+import Collapse from '../components/Collapse/Collapse';
 import '/src/styles/Property.css'
 import PropertySlider from '../components/Property_Slider/Property_Slider';
 
