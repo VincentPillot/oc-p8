@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
-import { getProperty } from '../scripts/api';
+import { getProperty } from '../../scripts/api';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import Collapse from '../components/Collapse/Collapse';
-import '/src/styles/Property.css'
-import PropertySlider from '../components/Property_Slider/Property_Slider';
+import Collapse from '../../components/Collapse/Collapse';
+import '/src/pages/Property/Property.css'
+import PropertySlider from '../../components/Property_Slider/Property_Slider';
 
 function Property() {
     const [propertyData, setPropertyData] = useState(null); // État pour stocker les données
