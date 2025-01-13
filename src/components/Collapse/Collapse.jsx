@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import '/src/styles/components/Collapse.css'
+import '/src/components/Collapse/Collapse.css'
 
 function Collapse(props) {
     const [visible, setVisible] = useState(true)
