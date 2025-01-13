@@ -1,4 +1,5 @@
 import '/src/styles/Navbar.css'
+import { Link } from "react-router";
 
 function Navbar() {
     return(
@@ -7,10 +8,10 @@ function Navbar() {
             <div className="navbar__menu">
                 <ul>
                     <li>
-                        <a>Accueil</a>
+                        <Link to={"/"}>Accueil</Link>
                     </li>
                     <li>
-                        <a>A Propos</a>
+                        <Link to={"/a-propos"}>A Propos</Link>
                     </li>
                 </ul>
             </div>
