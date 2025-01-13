@@ -1,0 +1,30 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.navbar__logo{
+    width: 210px;
+    height: 68px;
+}
+
+.navbar__menu{
+    width: 100%;
+    max-width: 300px;
+}
+
+.navbar__menu ul{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar__menu a{
+    color: black;
+    font-size: 24px;
+    margin-left: 20px;
+    text-decoration: none;
+}
