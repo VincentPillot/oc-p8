@@ -16,6 +16,7 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .collapse__header h3{
