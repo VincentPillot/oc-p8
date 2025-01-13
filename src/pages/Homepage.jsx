@@ -1,16 +1,12 @@
-import LogementsSection from '/src/components/Logements_Grid'
+import PropertiesGrid from '/src/components/Properties_Grid/Properties_Grid'
+import Banner from '/src/components/Banner/Banner'
 import '/src/styles/Homepage.css'
 
 function Homepage() {
     return(
         <main>
-            <div className="home__banner">
-                <div className="home__banner__filter">
-                    <h1>Chez vous, partout et ailleurs</h1>
-                </div>
-            </div>
-
-            <LogementsSection/>
+            <Banner image="/src/assets/images/home_banner.png" title="Chez vous, partout et ailleurs" filter={true}/>
+            <PropertiesGrid/>
         </main>
     )
 }
