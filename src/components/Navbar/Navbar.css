@@ -32,3 +32,57 @@
 .navbar__link__active{
     text-decoration: underline !important;
 }
+
+@media screen and (max-width: 650px) {
+    .navbar__logo{
+        width: 145px;
+        height: 46px;
+    }
+
+    .navbar__menu ul{
+        justify-content: center;
+    }
+
+    .navbar__menu a{
+        font-size: 18px;
+        margin-left: 30px;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .navbar__logo{
+        width: 115px;
+        height: 35px;
+    }
+    
+    .navbar__menu a{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .navbar{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .navbar__logo{
+        width: 145px;
+        height: 46px;
+    }
+
+    .navbar__menu ul{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 255px) {
+    .navbar__menu a{
+        margin-left: 0;
+    }
+}
