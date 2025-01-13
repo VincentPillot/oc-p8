@@ -5,7 +5,7 @@ import Property from './pages/Property/Property.jsx'
 import About from './pages/About/About.jsx'
 import Navbar from './components/Navbar/Navbar.jsx'
 import Footer from './components/Footer/Footer.jsx'
-import Page404 from './pages/404.jsx'
+import Page404 from './pages/404/404.jsx'
 import '/src/styles/Style.css'
 
 function App() {
