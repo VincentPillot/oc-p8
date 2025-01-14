@@ -57,6 +57,14 @@
     align-items: center;
 }
 
+.property__card__empty {
+    background: none;
+    box-shadow: none;
+    cursor: default;
+    visibility: hidden; /* La carte ne sera pas visible mais prendra de la place */
+}
+
+
 @media screen and (max-width: 1226px) {
     .properties__section{
         padding: 50px 25px;
@@ -78,6 +86,10 @@
         width: 340px;
         height: 340px;
         margin: 0 20px 30px 20px;
+    }
+
+    .property__card__empty{
+        display: none;
     }
 }
 
